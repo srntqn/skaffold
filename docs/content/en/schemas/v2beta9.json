@@ -1415,7 +1415,7 @@
         "createNamespace": {
           "type": "boolean",
           "description": "if `true`, Skaffold will send `--create-namespace` flag to Helm CLI. `--create-namespace` flag is available in Helm since version 3.2. Defaults is `false`. Will only work in conjunction with `namespace`.",
-          "x-intellij-html-description": "if <code>true</code>, Skaffold will send <code>--create-namespace</code> flag to Helm CLI. <code>--create-namespace</code> flag is available in Helm since version 3.2. Defaults is <code>false</code>."
+          "x-intellij-html-description": "if <code>true</code>, Skaffold will send <code>--create-namespace</code> flag to Helm CLI. <code>--create-namespace</code> flag is available in Helm since version 3.2. Will only work in conjunction with "<code>namespace</code>."
         },
         "imageStrategy": {
           "$ref": "#/definitions/HelmImageStrategy",
